@@ -1,2 +1,2 @@
-# node_mongodb
+# nodejs-mongodb
 Node express with mongodb configuration.
