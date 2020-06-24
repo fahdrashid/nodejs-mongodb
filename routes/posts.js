@@ -13,7 +13,7 @@ router.get('/', verify, async (req, res) => {
 });
 
 //Create a post
-router.post('/', async (req, res) => {
+router.post('/', verify, async (req, res) => {
   const post = new Post({
     title: req.body.title,
     description: req.body.description

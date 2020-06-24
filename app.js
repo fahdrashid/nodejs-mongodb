@@ -26,4 +26,4 @@ app.get('/', (req, res) => {
 // const client = new MongoClient(process.env.DB_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true }, () => console.log("Connected to DB!"));
 mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true }, () => console.log("Connected to DB!"));
 
-app.listen("3000", () => console.log("Server up and running."));
+app.listen(process.env.PORT, () => console.log(`Server up and running on ${process.env.PORT}`));
