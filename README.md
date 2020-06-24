@@ -19,4 +19,4 @@
 3. Run the server using command "npm start".
 
 ## Note:
- *  I used the mongodb atlas. If you want to connect with the local database then first you have to run the mongodb server using brew (commend "brew services start mongodb-community" for that you must have installed brew and mongodb in your local machine.) or any other technique and after that you can easily make your connection with the localhost:27017 and you can copy the connection string from mongodb compass and paste that in .env file.
+ *  I used the mongodb atlas. If you want to connect with the local database then first you have to run the mongodb server using brew (command "brew services start mongodb-community" for that you must have installed brew and mongodb in your local machine.) or any other technique and after that you can easily make your connection with the localhost:27017 and you can copy the connection string from mongodb compass and paste that in .env file.
