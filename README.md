@@ -1,5 +1,7 @@
 # nodejs-mongodb
   Node express with mongodb configuration.
+  * In this repo, I made the nodejs server with the mongodb configuration, made a public and private routes including user registration, login and CRUD for posts.
+  * I implemented JWT authorization.
 
 ### Steps to follow:
 
