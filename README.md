@@ -1,7 +1,7 @@
 # nodejs-mongodb
-# Node express with mongodb configuration.
+  Node express with mongodb configuration.
 
-# Steps to follow
+### Steps to follow:
 
 1.  Need to install the dependencies using command "npm install".
 
