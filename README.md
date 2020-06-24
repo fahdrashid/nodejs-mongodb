@@ -15,3 +15,5 @@
 
 3. Run the server using command "npm start".
 
+## Note:
+ *  I used the mongodb atlas so in that case my connection string looks like that if you want to connect with the local database of you pc you can easily get one on mongodb compass and copy paste that in .env file.
