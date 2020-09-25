@@ -19,7 +19,6 @@ router.post('/', verify, async (req, res) => {
     description: req.body.description
   });
 
-  
   try {
     const savedPost = await post.save();
     res.status(200).json(savedPost);
